@@ -4,28 +4,34 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
-
-        <link rel="preload" href="../CSS/normalize.css">
-        <link rel="stylesheet" href="../CSS/normalize.css">
-        <link rel="preload" href="../CSS/styles.css" as="style">
-        <link rel="stylesheet" href="../CSS/styles.css">
     
-        <title>Diseñador Freelancer/precios</title>
+        <link rel="preload" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/normalize.css">
+        
+        <title>Diseñador Freelancer</title>
         <link rel="shortcut icon" href="../imagenes/Recursos ThinkSoft_Favicon.png" type="image/x-icon">
+        
+        <!-- Boostrap -->
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
+            <!-- Mi css -->
+        <link rel="preload" href="CSS/styles.css" as="style">
+        <link rel="stylesheet" href="CSS/styles.css">
     </head>
     
-    <body>
+    <body class="container-fluid">
         
         <header>
             <h1 class="titulo">Desarrollador Web      
             <span>Freelancer</span></h1>
         </header>
             
-                <div class="nav-bg">
+                <div class="nav-bg mt-2">
                     <nav class="navegacion-principal contenedor">
                         <a href="../index.html">Inicio</a>
                         <a href="servicios.html">Servicios</a>
@@ -36,37 +42,67 @@
                     </nav>
                 </div>
                 
-                <img src="imagenes/desarrolloWeb.jpeg" alt="imagen de sistemas" class="img-luid">
+                <img src="../imagenes/desarrolloWeb.jpeg" alt="imagen de sistemas" class="img-fluid mt-4" >
+
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
         
-        <main>
-            <h2>Tabla de precios</h2>
-            <table border="10" cellpadding="6" cellspacing="8">
-                <tr>
-                    <th>Producto</th>
-                    <th>Valor 1</th>
-                    <th>Valor 2</th>
-                    <th>Valor 3</th>
-                </tr>
-                <tr>
-                    <td>Diseño Web</td>
-                    <td>5000</td>
-                    <td>10000</td>
-                    <td>20000</td>
-                </tr>
-                <tr>
-                    <td>Aplicaciones Móviles</td>
-                    <td>50000</td>
-                    <td>100000</td>
-                    <td>200000</td>
-                </tr>
-                <tr>
-                    <td>E-commerce</td>
-                    <td>50000</td>
-                    <td>100000</td>
-                    <td>200000</td>
-                </tr>
-            </table>
-        </main>
+            <main>
+                <h2>Tabla de precios</h2>
+                <table border="10" cellpadding="6" cellspacing="8">
+                    <tr>
+                        <th>Producto</th>
+                        <th>Valor 1</th>
+                        <th>Valor 2</th>
+                        <th>Valor 3</th>
+                    </tr>
+                    <tr>
+                        <td>Diseño Web</td>
+                        <td>5000</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                    </tr>
+                    <tr>
+                        <td>Aplicaciones Móviles</td>
+                        <td>50000</td>
+                        <td>100000</td>
+                        <td>200000</td>
+                    </tr>
+                    <tr>
+                        <td>E-commerce</td>
+                        <td>50000</td>
+                        <td>100000</td>
+                        <td>200000</td>
+                    </tr>
+                </table>
+            </main>
 
         <footer>
             <ul>
