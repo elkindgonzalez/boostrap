@@ -15,7 +15,7 @@
         <link rel="preload" href="../CSS/styles.css" as="style">
         <link rel="stylesheet" href="../CSS/styles.css">
     
-        <title>Diseñador Freelancer/Cliente</title>
+        <title>Clientes</title>
         <link rel="shortcut icon" href="../imagenes/Recursos ThinkSoft_Favicon.png" type="image/x-icon">
 
         <!-- Boostrap -->
@@ -27,16 +27,16 @@
         <link rel="stylesheet" href="CSS/styles.css">
     </head>
 
-    <body>
+    <body class="container-fluid">
             
         <header>
             <h1 class="titulo">Desarrollador Web      
             <span>Freelancer</span></h1>
         </header>
 
-        <img src="../imagenes/desarrolloWeb.jpeg" alt="imagen de programador" class="img-fluid">
+      
             
-                <div class="nav-bg">
+                <div class="nav-bg mt-2">
                     <nav class="navegacion-principal contenedor">
                         <a href="../index.html">Inicio</a>
                         <a href="servicios.html">Servicios</a>
@@ -46,6 +46,35 @@
                         <a href="portfolio.html">Portfolio</a>
                     </nav>
                 </div>
+
+                <img src="../imagenes/desarrolloWeb.jpeg" alt="imagen de programador" class="img-fluid mt-4">
+
+                <div id="carouselExampleIndicators" class="carousel slide mt-4" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../imagenes/desarrolloWeb.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../imagenes/imagen1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../imagenes/Recursos ThinkSoft_Favicon.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
 
         <section>
             <h3>Cliente1</h3>
@@ -66,6 +95,9 @@
                 <li><a href="https://www.linkedin.com" target="_blank">Linkedln</a></li>
             </ul>
         </footer>
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
     </body>
     
